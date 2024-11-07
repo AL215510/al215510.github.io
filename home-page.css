@@ -1,0 +1,228 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #0a3142;
+    color: #ffffff;
+    background-image: url('/api/placeholder/20/20');
+    background-repeat: repeat;
+}
+
+/* Animación de nieve */
+@keyframes snowfall {
+    0% { transform: translateY(-100vh); }
+    100% { transform: translateY(100vh); }
+}
+
+.snowflake {
+    position: fixed;
+    color: white;
+    font-size: 1em;
+    animation: snowfall 10s linear infinite;
+    z-index: 1;
+}
+
+/* Encabezado */
+header {
+    background: linear-gradient(to bottom, #c41e3a, #8b0000);
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+/* Título animado */
+@keyframes titleGlow {
+    0% { text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073; }
+    50% { text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6; }
+    100% { text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073; }
+}
+
+.animated-title {
+    animation: titleGlow 2s infinite;
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+/* Navegación */
+nav {
+    background-color: #146b3a;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #c41e3a;
+    transform: scale(1.1);
+}
+
+/* Secciones */
+section {
+    padding: 4rem 3rem;
+    margin: 1rem auto;
+    max-width: 1200px;
+    background: rgba(20, 107, 58, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+/*Informacion navidad*/
+#acerca-de{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.izq{
+    width: 70%;
+    text-align: justify;
+}
+
+.der{
+    width: 30%;
+    color: black;
+    height: 100%;
+}
+
+.mini-menu{
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: white;
+    padding: 5%;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: -5px 5px 5px;
+}
+
+.der a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.der h2{
+    color: #c41e3a;
+}
+
+.der a:hover{
+    transition: 0.3s;
+    color: rgba(0, 0, 0, 0.702);
+    text-decoration:underline;
+}
+
+/*Imagen de la informacion*/ 
+.img-info{
+    width: 100%;
+}
+
+.pie-img{
+    font-size: 0.8rem;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(77, 174, 204, 0.795);
+    border-radius: 10px;
+}
+
+input, textarea {
+    padding: 0.8rem;
+    border-radius: 4px;
+    border: 2px solid #c41e3a;
+    background-color: rgba(255,255,255,0.9);
+    color: #0a3142;
+}
+
+button {
+    padding: 1rem;
+    background-color: #c41e3a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #8b0000;
+    transform: scale(1.05);
+}
+
+/* Contenedores de arte */
+.art-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+/* Mapa */
+.ubicacion{
+    display: flex;
+}
+
+#map {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+
+/* Multimedia */
+audio, video {
+    width: 100%;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #0a3142;
+    padding: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.social-links {
+    margin-top: 1rem;
+}
+
+.social-links a {
+    color: white;
+    margin: 0 1rem;
+    text-decoration: none;
+}

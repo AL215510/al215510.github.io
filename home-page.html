@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magia de la Navidad</title>
+
+    <link rel="stylesheet" href="home-page.css">
+</head>
+<body>
+    <header>
+        <h1 class="animated-title">Magia de la Navidad</h1>
+        <p>Celebremos juntos esta época especial</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#musica-fondo">Música</a></li>
+            <li><a href="#acerca-de">Acerca de</a></li>
+            <li><a href="#video">Video resumen</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#ubicacion">Mapa</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a href="https://www.santaclaus.com" target="_blank">Villa de Santa</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Bienvenidos a la Celebración Navideña</h2>
+            <div class="art-container">
+                <!-- Primer SVG: Árbol de Navidad -->
+                <svg width="200" height="300" viewBox="0 0 200 300">
+                    <!-- Tronco -->
+                    <rect x="85" y="250" width="30" height="40" fill="#8B4513"/>
+                    <!-- Árbol -->
+                    <path d="M 100 50 L 160 250 L 40 250 Z" fill="#146B3A"/>
+                    <!-- Decoraciones -->
+                    <circle cx="100" cy="80" r="8" fill="#FFD700"/>
+                    <circle cx="80" cy="120" r="6" fill="#FF0000"/>
+                    <circle cx="120" cy="150" r="6" fill="#0000FF"/>
+                    <circle cx="90" cy="180" r="6" fill="#FFD700"/>
+                    <circle cx="110" cy="210" r="6" fill="#FF0000"/>
+                </svg>
+
+                <!-- Segundo SVG: Estrella -->
+                <svg width="200" height="200" viewBox="0 0 200 200">
+                    <path d="M 100 10 L 120 80 L 190 80 L 130 120 L 150 190 L 100 150 L 50 190 L 70 120 L 10 80 L 80 80 Z"
+                          fill="#FFD700" stroke="#FFA500" stroke-width="2"/>
+                </svg>
+            </div>
+        </section>
+
+        <section id="musica-fondo">
+            <h2>Música de fondo</h2>
+            <audio controls>
+                <source src="bg-music.mp3" type="audio/mpeg">
+                Tu navegador no soporta el elemento de audio.
+            </audio>
+            <p>Escucha un poco de música mientras navegas por la página.</p>
+        </section>
+
+        <section id="acerca-de">
+            <div class="izq">
+                <h2>Todo acerca de la navidad</h2>
+                <br>
+                <h3 id="que-es">¿Qué es la navidad?</h3>
+                <br>
+                <img class="img-info" src="nacimiento.jpg" alt="imagen del nacimiento de jesus">
+                <p class="pie-img">Nacimiento de Jesucristo</p>
+                <br>
+                <p>
+                    La Navidad es una festividad cristiana en la que se conmemora el nacimiento 
+                    de Jesucristo. Se celebra el 25 de diciembre, excepto en la Iglesia ortodoxa 
+                    rusa y otras iglesias orientales que se rigen por el <u>calendario juliano</u>, 
+                    en las que se festeja el 7 de enero (correspondiente al 25 de diciembre en 
+                    el <u>calendario gregoriano</u>).
+                    <br><br>
+                    La palabra Navidad proviene del latín nativitas, "nacimiento”. El mismo origen 
+                    tienen el francés Nöel, el italiano Natale y el portugués Natal. En inglés, 
+                    la festividad recibe el nombre de Christmas (Mass of Christ’s day, "día de la 
+                    misa de Cristo"). En alemán se denomina Weihnachten, "noche sagrada".
+                    <br><br>
+                    A pesar de ser una fiesta cristiana, la Navidad es celebrada actualmente en 
+                    gran parte del mundo también por no cristianos, desprovista de su contenido 
+                    religioso, como una ocasión de reencuentro y reconciliación entre familiares 
+                    y amigos cercanos.
+                </p>
+                <br>
+                <h3 id="origen">Origen de la navidad</h3>
+                <br>
+                <img class="img-info" src="origen.jpg" alt="imagen del evangelio de Lucas">
+                <p class="pie-img">Según el Evangelio de Lucas, un ángel anunció a los pastores el nacimiento de Jesús.</p>
+                <br>
+                <p>
+                    Según los Evangelios de Mateo y Lucas, Jesús, considerado el Mesías anunciado 
+                    por los profetas en el Antiguo Testamento, nació en la aldea de Belén, durante 
+                    el reinado de Herodes el Grande, rey vasallo de Roma (Mt 2,1; Lc 1, 5 y 2, 6-7).
+                    <br><br>
+                    Lucas señala que los padres de Jesús, María y José, se trasladaron a Belén desde 
+                    Nazaret para empadronarse, en cumplimiento de un decreto del emperador Augusto 
+                    (Lc 2, 1-6). Este evangelista también menciona que Jesús nació en un pesebre 
+                    “porque no había sitio en la posada” (Lc 2, 7) y que un ángel anunció su nacimiento 
+                    a unos pastores, quienes fueron los primeros en ir hasta el pesebre a adorarlo 
+                    (Lc 2, 8-20).
+                    <br><br>
+                    Los Evangelios no precisan la fecha en la que nació Jesús ni dan indicios al respecto. 
+                    La primera mención del 25 de diciembre como día del nacimiento de Jesús se encuentra 
+                    en un texto del helenista y apologista Sexto Julio Africano, del año 221.
+                    <br><br>
+                    Entre los motivos por los que se pudo haber establecido esa fecha, se suele invocar 
+                    la necesidad de la Iglesia de reemplazar la fiesta pagana del dies solis invicti nati 
+                    ("día del nacimiento del dios invicto"), en la que se celebraba el solsticio de 
+                    invierno como día del nacimiento del Sol, con el fin de facilitar la aceptación 
+                    del <u>cristianismo</u>.
+                </p>
+                <br>
+                <h3 id="cel-lit">Celebración litúrgica de navidad</h3>
+                <br>
+                <p>
+                    La celebración de la Navidad quedó firmemente establecida a partir del siglo IV. 
+                    Sin embargo, recién en el siglo IX la Iglesia católica adoptó una liturgia específica 
+                    para esa festividad. Esta incluye tradicionalmente la celebración de cuatro misas: 
+                    la Misa de vigilia (Misa de Gallo) la Misa de medianoche, la Misa del alba o de la 
+                    aurora y la Misa del día.
+                    <br><br>
+                    En el calendario litúrgico, la Navidad está precedida por las cuatro semanas del 
+                    tiempo de Adviento, el período de penitencia y de preparación de la Navidad. La 
+                    celebración de la Navidad marca el inicio del tiempo de Navidad, que se extiende 
+                    desde el 25 de diciembre hasta la fiesta del Bautismo del Señor (entre el 9 y el 
+                    13 de enero, según los años). Fuera de la Iglesia católica, el tiempo de Navidad 
+                    dura 12 días, del 25 de diciembre al 5 de enero.
+                </p>
+                <br>
+                <h3 id="trad">Tradiciones de la navidad</h3>
+                <br>
+                <img class="img-info" src="tradiciones.jpg" alt="imagen de papa noel">
+                <p class="pie-img">
+                    Papá Noel, también conocido como Santa Claus o San Nicolás, 
+                    es un personaje tradicional navideño.
+                </p>
+                <br>
+                <p>
+                    La Navidad está asociada a varias tradiciones. Algunas de ellas son 
+                    actualmente de alcance casi universal.
+                    <br><br>
+                    <li>
+                        <b>El árbol de Navidad.</b> Los orígenes del árbol de Navidad se remontan 
+                        a los antiguos pueblos escandinavos y germanos. Estos, como parte de la 
+                        celebración del nacimiento del dios Frey, adornaban un árbol de hoja perenne. 
+                        Se atribuye a San Bonifacio (672-754) evangelizador de Alemania, haber 
+                        adaptado esta costumbre al cristianismo. El árbol, un pino o abeto, se 
+                        convirtió así en un símbolo del nacimiento de Jesús. Desde el norte de 
+                        Europa, esta tradición se difundió al resto del mundo. En los hogares 
+                        católicos, el árbol se prepara el 8 de diciembre, día en que se celebra 
+                        la fiesta de la Inmaculada Concepción de la Virgen.
+                    </li>
+                    <br>
+                    <li>
+                        <b>El pesebre.</b> Los pesebres, también llamados belenes o nacimientos, 
+                        fueron popularizados por San Francisco de Asís. En la víspera de la Navidad 
+                        de 1223, este santo montó un pesebre con personas y animales reales en una 
+                        cueva en las afueras de la aldea de Greccio, en Italia. En los hogares 
+                        católicos, el pesebre se arma el 8 de diciembre, junto con el árbol de Navidad.
+                    </li>
+                    <br>
+                    <li>
+                        <b>Papá Noel.</b> La figura de este personaje, también conocido como Santa 
+                        Claus, San Nicolás y, en Chile, como Viejito Pascuero, proviene de la leyenda 
+                        en torno a San Nicolás de Bari, un obispo del siglo IV que vivió en Turquía y 
+                        de quien se cuenta que arrojó por una chimenea dinero a un padre que no podía 
+                        casar a sus tres hijas solteras, por carecer de dote. Se atribuye a los 
+                        holandeses, quienes fundaron Nueva Ámsterdam (la actual Nueva York), haber 
+                        llevado la figura de Santa Claus a América, junto con la costumbre de entregar 
+                        regalos.
+                    </li>
+                    <br>
+                    <li>
+                        <b>Corona de Adviento.</b> La corona de Adviento, formada por un corona de 
+                        ramas de pino o abeto y cuatro velas, representa la espera y la preparación 
+                        de la Navidad, durante las cuatro semanas que le preceden. Cada vela simboliza 
+                        un domingo de Adviento. Como otras tradiciones cristianas, esta tiene su origen 
+                        en tradiciones paganas; en este caso, de los pueblos germanos, que confeccionaban 
+                        coronas de ramas verdes y prendían velas para representar el fuego del dios Sol 
+                        y la esperanza de la venida de la primavera.
+                    </li>
+                    <br>
+                    <li>
+                        <b>Los villancicos.</b> Estas canciones populares navideñas fueron en sus inicios, 
+                        en el siglo XIII, composiciones de temas profanos. A partir del siglo XVI, la 
+                        Iglesia empezó a promover los villancicos de temática religiosa, para que fueran 
+                        cantados durante las procesiones y otras celebraciones religiosas. De entre estas 
+                        festividades, la Navidad, por la alegría a la que está asociada, fue en la que 
+                        tuvo mayor difusión. El equivalente del villancico en Inglaterra es el carol.
+                    </li>
+                    <br>
+                    <li>
+                        <b>La cena de Nochebuena.</b> Durante la víspera de Navidad es habitual en muchos 
+                        sitios que las familias se reúnan para compartir una cena abundante. Los platos 
+                        varían de un país a otro, de acuerdo con la gastronomía propia de cada lugar. Al 
+                        llegar las doce de la noche, se realiza un brindis. En muchos países, se hace el 
+                        intercambio los regalos, colocados junto al árbol. En otros países, los regalos 
+                        se abren el día 25 por la mañana.
+                    </li>
+                </p>
+                <br>
+                <h3 id="paises">La navidad en algunos países</h3>
+                <br>
+                <img class="img-info" src="nav-paises.jpg" alt="imagen del nacimiento de jesus">
+                <p class="pie-img">
+                    En la cena de Nochebuena, los polacos comparten una hostia como señal de reconciliación.
+                </p>
+                <br>
+                <p>
+                    Además de las costumbres que se viven en todo el mundo, cada país tiene sus propias 
+                    tradiciones navideñas.
+                    <br><br>
+                    <li>
+                        <b>En México, entre el 16 y el 24 de diciembre tienen lugar las recorridas 
+                        conocidas como posadas.</b> Durante 9 días, niños y adultos, rememorando la búsqueda 
+                        de María y José en Belén, salen a las calles y visitan nueve casas, hasta encontrar 
+                        la casa donde se les dé posada. Las salidas van acompañadas de cantos y rezos. 
+                        El anfitrión recibe a los peregrinos con ponche, frutas y el aguinaldo o colación, 
+                        una pequeña bolsa con dulces y cacahuates. Al final, se rompe una piñata de siete 
+                        picos, que simbolizan los 7 pecados capitales.
+                    </li>
+                    <br>
+                    <li>
+                        <b>En Polonia, la celebración navideña comienza en la víspera con la aparición de la 
+                        primera estrella en el cielo.</b> En la mesa donde se celebra la cena, se pone debajo 
+                        del mantel un poco de paja, como recordatorio de que Jesús nació en un pesebre. 
+                        En muchos hogares, se sirven doce platos, uno por cada apóstol, y se deja en la 
+                        mesa de manera simbólica un lugar adicional para el niño Jesús o un visitante 
+                        inesperado. Antes de iniciar la cena, los comensales comparten el oplatek, una 
+                        hostia sin consagrar y la comen, como símbolo de reconciliación.
+                    </li>
+                    <br>
+                    <li>
+                        <b>En Finlandia, la víspera de Navidad se realiza la ceremonia de la Declaración de 
+                        la Paz de Navidad.</b> En la ciudad de Turku (antigua capital de Finlandia) se lee un 
+                        texto en el que se declara la “paz general de Navidad” y se desea a todos una 
+                        Navidad pacífica y feliz. La preparación de la Navidad incluye una limpieza a fondo 
+                        del hogar y una sesión de sauna. Luego, los finlandeses se visten con ropa limpia 
+                        para la cena. Tras la cena, Papá Noel, llamado Joulupukki, visita las casas, a veces 
+                        acompañado de un elfo.
+                    </li>
+                    <br>
+                    <li>
+                        <b>En Ucrania, la Navidad se celebra en dos fechas: el 25 de diciembre, para los 
+                        católicos y protestantes, y el 7 de enero, para los ortodoxos.</b> Entre los adornos 
+                        con los que se decoran los árboles navideños se encuentran algunos con forma de 
+                        telarañas, en los que se coloca una araña artificial, siguiendo una leyenda acerca 
+                        de una mujer pobre que decoró su árbol de esa manera, y luego vio cómo las telarañas 
+                        se convirtieron en hilos de plata. La cena de Nochebuena se conoce como santa cena. 
+                        En ella, se sirven 12 platos, uno por cada apóstol. Durante la comida, se habla en 
+                        voz baja. Además, al igual que en otras ocasiones especiales, junto a la mesa o en 
+                        otro lugar visible se colocan los retratos de los parientes fallecidos y, al lado 
+                        de ellos, un poco de pan y sal, una copa de aguardiente y una vela encendida.
+                    </li>
+                </p>
+            </div>
+            <div class="der">
+                <div class="mini-menu">
+                    <h2>Índice</h2>
+                    <a href="#que-es">¿Qué es la Navidad?</a>
+                    <a href="#origen">Origen de la Navidad</a>
+                    <a href="#cel-lit">Celebración litúrgica de la Navidad</a>
+                    <a href="#paises">Tradiciones de la Navidad</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="video">
+            <h2>Video Resumen - Destripando la historia</h2>
+            <br>
+            <p>
+                Te invitamos a ver este resumen sobre la navidad del canal "Destripando la historia" 
+                en el que explican, de manera divertida, el origen de la navidad.
+            </p>
+            <video width="100%" height="auto" controls>
+                <source src="El Origen de Navidad  Destripando la Historia  CANCIÓN Parodia.MP4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </section>
+
+        <section id="galeria">
+            <h2>Galería Navideña</h2>
+            <div class="art-container">
+                <canvas id="giftCanvas" width="200" height="200"></canvas>
+                <canvas id="candleCanvas" width="200" height="200"></canvas>
+            </div>
+            <script>
+                // Canvas 1: Regalo animado
+                const giftCtx = document.getElementById('giftCanvas').getContext('2d');
+                function drawGift() {
+                    giftCtx.clearRect(0, 0, 200, 200);
+                    
+                    // Caja del regalo
+                    giftCtx.fillStyle = '#c41e3a';
+                    giftCtx.fillRect(50, 50, 100, 100);
+                    
+                    // Listón
+                    giftCtx.fillStyle = '#ffd700';
+                    giftCtx.fillRect(90, 50, 20, 100);
+                    giftCtx.fillRect(50, 90, 100, 20);
+                    
+                    // Moño
+                    const time = new Date();
+                    const bounce = Math.sin(time.getTime() / 500) * 5;
+                    
+                    giftCtx.beginPath();
+                    giftCtx.ellipse(100, 90 + bounce, 30, 15, 0, 0, 2 * Math.PI);
+                    giftCtx.fill();
+                }
+                setInterval(drawGift, 50);
+
+                // Canvas 2: Vela navideña
+                const candleCtx = document.getElementById('candleCanvas').getContext('2d');
+                function drawCandle() {
+                    candleCtx.clearRect(0, 0, 200, 200);
+                    
+                    // Vela
+                    candleCtx.fillStyle = '#ffffff';
+                    candleCtx.fillRect(85, 80, 30, 100);
+                    
+                    // Llama
+                    const time = new Date();
+                    const flicker = Math.sin(time.getTime() / 200) * 5;
+                    
+                    candleCtx.beginPath();
+                    candleCtx.moveTo(100, 40 + flicker);
+                    candleCtx.quadraticCurveTo(120, 60 + flicker, 100, 80);
+                    candleCtx.quadraticCurveTo(80, 60 + flicker, 100, 40 + flicker);
+                    candleCtx.fillStyle = '#ffd700';
+                    candleCtx.fill();
+                }
+                setInterval(drawCandle, 50);
+            </script>
+        </section>
+
+        <section id="ubicacion">
+            <h2>Encuentra la Magia Navideña</h2>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.1545979426614!2d-106.4173740248817!3d31.49243414852261!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86e76599cc1bc6df%3A0x221e2b7b0cb7d301!2sUACJ%20-%20Ciudad%20Universitaria!5e0!3m2!1ses-419!2smx!4v1730945878999!5m2!1ses-419!2smx" 
+                width="600" height="450" style="border-radius: 10; border: 0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form>
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu correo electrónico" required>
+                <textarea placeholder="Tu mensaje navideño" rows="4" required></textarea>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Desarrollado con ❄️ por: <br>
+        Arturo Pérez González - 215510 <br>
+            </p>
+        <p>© 2024 Magia de la Navidad</p>
+        <div class="social-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+        </div>
+    </footer>
+
+    <script>
+        // Crear copos de nieve
+        function createSnowflakes() {
+            const snowflakes = 50;
+            for(let i = 0; i < snowflakes; i++) {
+                const snowflake = document.createElement('div');
+                snowflake.className = 'snowflake';
+                snowflake.style.left = `${Math.random() * 100}vw`;
+                snowflake.style.animationDuration = `${Math.random() * 5 + 5}s`;
+                snowflake.style.opacity = Math.random();
+                snowflake.innerHTML = '❄';
+                document.body.appendChild(snowflake);
+            }
+        }
+        createSnowflakes();
+    </script>
+</body>
+</html>
